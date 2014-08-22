@@ -2,28 +2,30 @@
 Getting-and-Cleaning-Data
 =========================
 
-Coursera Getting and Cleaning Data
-=======
 ## run_analysis.R
 
 
 # File Structure
 
-| Directory                   | Filename                    | Comments                                             |
-| ./                          | run_analysis                | R program                                            |
-| ./                          | README.md                   | Markdown document, application description           |
-| ./                          | means_output_codebook.txt   | Codebook for means_output.txt                        |
-| ./                          | output_codebook.txt         | Codebook for output.txt                              |
-| ./                          | output.txt                  | Each extracted feature per subject per activity      |
-| ./                          | means_output.txt            | Mean of extracted feature per subject per activity   |
-| ./data/UCI HAR Dataset      | activity_labels.txt         | Integer to activity name table*                      |
-| ./data/UCI HAR Dataset      | features.txt                | Codebook of features*                                |
-| ./data/UCI HAR Dataset/test | subject_test.txt            | Input source data, subjects*                         |
-| ./data/UCI HAR Dataset/test | X_test.txt                  | Input source data, value of each feature*            |
-| ./data/UCI HAR Dataset/test | y_test.txt                  | Input source data, activities*                       |
-| ./data/UCI HAR Dataset/train| subject_train.txt           | Input source data, subjects*                         |
-| ./data/UCI HAR Dataset/train| X_train.txt                 | Input source data, value of each feature*            |
-| ./data/UCI HAR Dataset/train| y_train.txt                 | Input source data, activities*                       |
+1. ./
+..1. *run_analysis.R* R program
+..2. *README.md* Markdown document, application description
+..3. *means_output_codebook.txt* Codebook for means_output.txt
+..4. *means_output_codebook.txt* Codebook for means_output.txt
+..5. *output_codebook.txt* Codebook for output.txt
+..6. *output.txt* Each extracted feature per subject per activity
+..7. *means_output.txt* Mean of extracted feature per subject per activity
+2 .data/UCI HAR Dataset
+..1. *activity_labels.txt* Integer to activity name table*
+..2. *features.txt* Codebook of features*
+3. ./data/UCI HAR Dataset/test
+..1. subject_test.txt Input source data, subjects*
+..2. X_test.txt Input source data, value of each feature*
+..3. y_test.txt Input source data, activities*
+4. ./data/UCI HAR Dataset/train
+..1. *subject_train.txt* Input source data, subjects*
+..2. *X_train.txt Input* source data, value of each feature*
+..3. *y_train.txt Input* source data, activities*
 
 * means the file is provided in the original source dataset
 ./ working directory
@@ -60,7 +62,8 @@ These documents should be read in conjunction with the Samsung documents README.
   
 # Running run_analysis.R
 
-Copy run_analysis.R into a directory.
-In the program edit the line work_dir <- <working_directory> (near line 32) and replace <working_directory>.
+Copy 'run_analysis.R' into a directory.
+In the program edit the line *work_dir <- <working_directory>* (near line 32) and replace <working_directory>.
 The program expects the Samsung data structure to be present relative to this <working_directory> as per the above File Structure table.
+
 >>>>>>> Course project - Getting and Cleaning Data
