@@ -16,7 +16,7 @@ Getting-and-Cleaning-Data
  6. *output.txt* Each extracted feature per subject per activity
  7. *means_output.txt* Mean of extracted feature per subject per activity
 
-2 .data/UCI HAR Dataset
+2. ./data/UCI HAR Dataset
  1. *activity_labels.txt* Integer to activity name table*
  2. *features.txt* Codebook of features*
 
@@ -31,6 +31,7 @@ Getting-and-Cleaning-Data
  3. *y_train.txt Input* source data, activities*
 
 ./ = working directory
+
 *means the file is provided in the original Samsung source dataset
 
 # Program Description
@@ -66,7 +67,8 @@ These documents should be read in conjunction with the Samsung documents README.
 # Running run_analysis.R
 
 Copy 'run_analysis.R' into a directory.
-In the program edit the line *work_dir <- <working_directory>* (near line 32) and replace <working_directory>.
-The program expects the Samsung data structure to be present relative to this <working_directory> as per the above File Structure table.
+In the program edit the line `work_dir <- <working_directory>` (near line 32) and replace `<working_directory>`.
+
+The program expects the Samsung data structure to be present relative to this `working_directory>`as per the above File Structure table.
 
 >>>>>>> Course project - Getting and Cleaning Data
