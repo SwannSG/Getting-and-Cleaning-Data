@@ -8,24 +8,24 @@ Getting-and-Cleaning-Data
 # File Structure
 
 1. ./
-..1. *run_analysis.R* R program
-..2. *README.md* Markdown document, application description
-..3. *means_output_codebook.txt* Codebook for means_output.txt
-..4. *means_output_codebook.txt* Codebook for means_output.txt
-..5. *output_codebook.txt* Codebook for output.txt
-..6. *output.txt* Each extracted feature per subject per activity
-..7. *means_output.txt* Mean of extracted feature per subject per activity
+ 1. *run_analysis.R* R program
+ 2. *README.md* Markdown document, application description
+ 3. *means_output_codebook.txt* Codebook for means_output.txt
+ 4. *means_output_codebook.txt* Codebook for means_output.txt
+ 5. *output_codebook.txt* Codebook for output.txt
+ 6. *output.txt* Each extracted feature per subject per activity
+ 7. *means_output.txt* Mean of extracted feature per subject per activity
 2 .data/UCI HAR Dataset
-..1. *activity_labels.txt* Integer to activity name table*
-..2. *features.txt* Codebook of features*
+ 1. *activity_labels.txt* Integer to activity name table*
+ 2. *features.txt* Codebook of features*
 3. ./data/UCI HAR Dataset/test
-..1. subject_test.txt Input source data, subjects*
-..2. X_test.txt Input source data, value of each feature*
-..3. y_test.txt Input source data, activities*
+ 1. subject_test.txt Input source data, subjects*
+ 2. X_test.txt Input source data, value of each feature*
+ 3. y_test.txt Input source data, activities*
 4. ./data/UCI HAR Dataset/train
-..1. *subject_train.txt* Input source data, subjects*
-..2. *X_train.txt Input* source data, value of each feature*
-..3. *y_train.txt Input* source data, activities*
+ 1. *subject_train.txt* Input source data, subjects*
+ 2. *X_train.txt Input* source data, value of each feature*
+ 3. *y_train.txt Input* source data, activities*
 
 * means the file is provided in the original source dataset
 ./ working directory
