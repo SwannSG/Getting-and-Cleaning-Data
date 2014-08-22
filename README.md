@@ -63,6 +63,10 @@ Finally we self-document the codeboooks by creating 'output_codebook.txt', and '
 'means_output_codebook.txt': data values represent the mean value for each feature. The mean is taken per feature per subject per activity. 
 
 These documents should be read in conjunction with the Samsung documents README.txt, features_info.txt, and activity_labels_codebook.txt.
+
+# Program Output
+
+The program outputs two files, 'output.txt' and 'means_output.txt'.
   
 # Running run_analysis.R
 

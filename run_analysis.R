@@ -174,12 +174,12 @@ write.table(means_output, filename, sep=" ", row.names=FALSE, quote=FALSE)
 #--end of export ************************************************************
 
 #--update codebooks, auto document ******************************************
-filename <- 'output_codebook.txt'
-write.table(names(output_ordered), filename, sep=" ", row.names=FALSE,
-            col.names=FALSE, quote=FALSE)
-filename <- 'means_output_codebook.txt'
-write.table(names(means_output), filename, sep=" ", row.names=FALSE,
-            col.names=FALSE,quote=FALSE)
+#filename <- 'output_codebook.txt'
+#write.table(names(output_ordered), filename, sep=" ", row.names=FALSE,
+#            col.names=FALSE, quote=FALSE)
+#filename <- 'means_output_codebook.txt'
+#write.table(names(means_output), filename, sep=" ", row.names=FALSE,
+#            col.names=FALSE,quote=FALSE)
 #--end of codebook update ***************************************************
 
 
