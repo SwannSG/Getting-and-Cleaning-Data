@@ -27,8 +27,8 @@ Getting-and-Cleaning-Data
  2. *X_train.txt Input* source data, value of each feature*
  3. *y_train.txt Input* source data, activities*
 
-* means the file is provided in the original source dataset
-./ working directory
+./ = working directory
+* means the file is provided in the original Samsung source dataset
 
 # Program Description
 
