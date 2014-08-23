@@ -28,10 +28,10 @@ features_we_want <- function( x ) {
   return (f)
 }
 
+#--directory structure ************************************************************
 #-- set working directory here
 work_dir <- '~/Courses/Coursera/3-Getting and Cleaning Data/Project/final'
 setwd(work_dir)
-
 #--we use the Samsung data structure
 #---- expects features.txt, activity_labels.txt files 
 desc_dir <- './data/UCI HAR Dataset'
@@ -41,6 +41,8 @@ test_dir <-'./data/UCI HAR Dataset/test'
 #--location of train data
 #----expects subject_train.txt, X_train.txt, y_train.txt files
 train_dir <-'./data/UCI HAR Dataset/train'
+#--end directory structure ********************************************************
+
 
 # find Variables for extraction in features.txt************************************
 #   mean, dev, Mean in variable name
@@ -174,12 +176,12 @@ write.table(means_output, filename, sep=" ", row.names=FALSE, quote=FALSE)
 #--end of export ************************************************************
 
 #--update codebooks, auto document ******************************************
-#filename <- 'output_codebook.txt'
-#write.table(names(output_ordered), filename, sep=" ", row.names=FALSE,
-#            col.names=FALSE, quote=FALSE)
-#filename <- 'means_output_codebook.txt'
-#write.table(names(means_output), filename, sep=" ", row.names=FALSE,
-#            col.names=FALSE,quote=FALSE)
+# filename <- 'output_codebook.txt'
+# write.table(names(output_ordered), filename, sep=" ", row.names=FALSE,
+#             col.names=FALSE, quote=FALSE)
+# filename <- 'means_output_codebook.txt'
+# write.table(names(means_output), filename, sep=" ", row.names=FALSE,
+#             col.names=FALSE,quote=FALSE)
 #--end of codebook update ***************************************************
 
 
