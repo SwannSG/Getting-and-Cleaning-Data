@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Getting-and-Cleaning-Data
 =========================
 
@@ -55,14 +54,15 @@ We write 'output_ordered' out to a space delimited text file called 'output.txt'
 
 We write 'means_output' out to a space delimited text file called 'means_output.txt'. The codebook for this file is 'means_output_codebook.txt'.
 
-Finally we self-document the codeboooks by creating 'output_codebook.txt', and 'means_output_codebook.txt'.  
+Finally we self-document the codebooks by creating 'output_codebook.txt', and 'means_output_codebook.txt'. This is commented out but can be uncommented if codebooks need to be regenerated.  
 
 # Codebooks
 
-'output_codebook.txt': data values are measurements taken in realtime per feature.
-'means_output_codebook.txt': data values represent the mean value for each feature. The mean is taken per feature per subject per activity. 
+*'output_codebook.txt'*: data values are measurements taken in real-time per feature.
 
-These documents should be read in conjunction with the Samsung documents README.txt, features_info.txt, and activity_labels_codebook.txt.
+*'means_output_codebook.txt'*: data values represent the mean value for each feature. The mean is taken per feature per subject per activity. 
+
+These documents should be read in conjunction with the Samsung documents README.txt, features_info.txt, and activity_labels_codebook.txt. For continuity we use the same feature names that Samsung documentation uses. 
 
 # Program Output
 
@@ -75,4 +75,3 @@ In the program edit the line `work_dir <- <working_directory>` (near line 32) an
 
 The program expects the Samsung data structure to be present relative to this `working_directory>`as per the above File Structure table.
 
->>>>>>> Course project - Getting and Cleaning Data
