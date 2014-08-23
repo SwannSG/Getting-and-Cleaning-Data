@@ -142,13 +142,13 @@ for (i in 1:30) {
 for (i in 1:nrow(fl)) {
   names(means_output)[2 + i] <- fl[i,2] 
 }
-#--replace activity code with activity name in means_output******************
+#--replace activity code with activity name in means_output
 for (i in 1:nrow(means_output)) {
   activity_code <- means_output[i, 'activity']
   activity_name <- activities[activity_code, 'name']
   means_output[i, 'activity'] <- activity_name
 }
-#--sort means_output on subject, activity *********** *****************************
+#--sort means_output on subject, activity
 order <- order( means_output$subject, means_output$activity )
 means_output <- means_output[ order, ]
 # end create means_output *****************************************************
